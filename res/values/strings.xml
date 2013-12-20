@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LvTongAndroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_ip_setting">IpSetting</string>
+    <string name="ip_address">服务器ip地址</string>
+    <string name="save_btn">保存</string>
+    <string name="video_url">视频地址</string>
+    <string name="car_no">车辆号码</string>
+    <string name="car_style">货车类型</string>
+    <string name="enter_stattion">上站口</string>
+    <string name="exit_stattion">出站口</string>
+    <string name="station">收费站</string>
+    <string name="pass_date">通过日期</string>
+    <string name="density">密  度</string>
+    <string name="charge">减免金额</string>
+    <string name="charge_user">收费员</string>
+    <string name="exit_chanel">出站通道</string>
+    <string name="checked_user">检测员</string>
+    <string name="recorded_user">录入员</string>
+    <string name="weight">总重重</string>
+    <string name="goods">货  物</string>
+    <string name="car">车牌</string>
+    <string name="mixed_goods">混装货物</string>
+    <string name="prevalence_of_overweight">超重率</string>
+    <string name="video">录像</string>
+    <string name="photo">抓拍</string>
+    <string name="delete">删除</string>
+    <string name="pass">通过</string>
+    <string name="no_pass">未通过</string>
+    <string name="checked">已检</string>
+    <string name="upload">上传</string>
+    <string name="other_cargo">其它货物：</string>
+    <string name="entrance_name">站号名称</string>
+    <string name="title_activity_checked_car">已检测车辆</string>
+    <string name="play">播放</string>
+    <string name="modify">修改</string>
+
+</resources>

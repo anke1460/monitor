@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="title_activity_login">绿通检测平台登陆</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">工号</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in_register">登陆</string>
+    <string name="action_sign_in_short">登陆</string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="login_progress_signing_in">绿通检测平台登陆中</string>
+    <string name="error_invalid_email">工号不能为空</string>
+    <string name="error_invalid_password">密码太短</string>
+    <string name="error_incorrect_password">密码不正确</string>
+    <string name="error_field_required">该项不能为空</string>
+    <string name="ip_setting">Ip 设置</string>
+
+</resources>

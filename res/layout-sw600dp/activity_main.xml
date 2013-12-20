@@ -1,0 +1,342 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <io.vov.vitamio.widget.CenterLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <SurfaceView
+                android:id="@+id/surface"
+                android:layout_width="550dp"
+                android:layout_height="450dp"
+                android:layout_gravity="center" >
+            </SurfaceView>
+        </io.vov.vitamio.widget.CenterLayout>
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toLeftOf="@id/linearLayout1" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/station_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/station"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/station"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/car_style_lable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/car_style"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/car_style"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content" >
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/car_no"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/car_no"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/pass_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/pass_date"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/pass_date"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content" >
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/goods_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/goods"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/goods"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/mixed_goods_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/mixed_goods"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/mixed_goods"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content" >
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/density_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/density"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/density"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/prevalence_of_overweight_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/prevalence_of_overweight"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/prevalence_of_overweight"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content" >
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/weight_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/weight"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/weight"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/charge_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/charge"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/charge"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content" >
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/charge_user_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/charge_user"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/charge_user"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/exit_chanel_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/exit_chanel"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/exit_station"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content" >
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/checked_user_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/checked_user"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/checked_user"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/recorded_user_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/recorded_user"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/recorded_user"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content" >
+            </EditText>
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="10dp" >
+
+        <Button
+            android:id="@+id/video_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/video" />
+
+        <Button
+            android:id="@+id/photo_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/photo" />
+
+        <Button
+            android:id="@+id/delete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/delete" />
+
+        <Button
+            android:id="@+id/car_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/car" />
+
+        <Button
+            android:id="@+id/pass_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pass" />
+
+        <Button
+            android:id="@+id/no_pass_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/no_pass" />
+
+        <Button
+            android:id="@+id/checked_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/checked" />
+
+        <Button
+            android:id="@+id/upload_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/upload" />
+    </LinearLayout>
+
+</RelativeLayout>
